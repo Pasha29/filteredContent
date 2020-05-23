@@ -11,7 +11,7 @@ mongoose.connect(`mongodb+srv://pashafinogenov:${MONGO_PASS}@cluster0-jfhg0.mong
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false   })
-
+//dummy
 app.use(bodyParser.json());
 app.use('/api', require('./api.js'));
 
